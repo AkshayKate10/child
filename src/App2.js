@@ -14,11 +14,11 @@ export default class App2 extends Component {
 
         <InputField fieldName="Last Name" customPlaceholder="Enter last name" />
 
-        <InputField fieldName="Email" />
+        <InputField fieldName="Email" customPlaceholder="Enter Email" />
 
-        <InputField fieldName="Address" />
+        <InputField fieldName="Address" customPlaceholder="Enter Address" />
 
-        <InputField fieldName="Contact" />
+        <InputField fieldName="Contact" customPlaceholder="Enter Contact" />
       </div>
     );
   }
