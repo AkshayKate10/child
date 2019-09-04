@@ -9,7 +9,9 @@ import App3 from "./App3";
 import App4 from "./App4";
 import App5 from "./App5";
 import App6 from "./App6";
-ReactDOM.render(<App6 />, document.getElementById("root"));
+import App7 from "./App7";
+
+ReactDOM.render(<App7 />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
