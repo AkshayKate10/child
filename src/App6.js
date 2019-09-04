@@ -16,14 +16,22 @@ export default class App6 extends Component {
           <table>
             <thead>
               <tr>
-                <td> My Table</td>
+                <th> User Id </th>
+                <th> id </th>
+                <th> title </th>
+                <th> body </th>
               </tr>
             </thead>
             <tbody>
-              {/* {namesList.map(x => (
-                <tr>{x.body}</tr>
-              ))} */}
-              {this.temp(namesList)}
+              <tr>
+                <td>{this.temp1(namesList)}</td>
+
+                <td>{this.temp2(namesList)}</td>
+
+                <td>{this.temp3(namesList)}</td>
+
+                <td>{this.temp4(namesList)}</td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -31,10 +39,36 @@ export default class App6 extends Component {
     );
   }
 
-  temp = namesList => {
+  temp1 = namesList => {
+    const rows = [];
+    for (var i = 0; i < namesList.length; i++) {
+      let x = <tr>{namesList[i].userId}</tr>;
+      rows.push(x);
+    }
+    return rows;
+  };
+
+  temp2 = namesList => {
     const rows = [];
     for (var i = 0; i < namesList.length; i++) {
       let x = <tr>{namesList[i].id}</tr>;
+      rows.push(x);
+    }
+    return rows;
+  };
+  temp3 = namesList => {
+    const rows = [];
+    for (var i = 0; i < namesList.length; i++) {
+      let x = <tr>{namesList[i].title}</tr>;
+      rows.push(x);
+    }
+    return rows;
+  };
+
+  temp4 = namesList => {
+    const rows = [];
+    for (var i = 0; i < namesList.length; i++) {
+      let x = <tr>{namesList[i].body}</tr>;
       rows.push(x);
     }
     return rows;
