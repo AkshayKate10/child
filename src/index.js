@@ -10,8 +10,9 @@ import App4 from "./App4";
 import App5 from "./App5";
 import App6 from "./App6";
 import App7 from "./App7";
+import SearchArrayByInput from "./SearchArrayByInput";
 
-ReactDOM.render(<App7 />, document.getElementById("root"));
+ReactDOM.render(<SearchArrayByInput />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
