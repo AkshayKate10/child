@@ -15,9 +15,11 @@ import * as serviceWorker from "./serviceWorker";
 // import ApiTable from "./ApiTable";
 // import LifecycleMethods from "./LifeCycle/Lifecycle_methods";
 // import TypesOfComponents from "./TypesOfComponents";
-import ExportTypes from "./ExportTypes";
-
-ReactDOM.render(<ExportTypes />, document.getElementById("root"));
+// import ExportTypes from "./ExportTypes";
+// import ArraySearchAndDelete from "./ArraySearchAndDelete";
+import App from "./StateUplifting";
+// import DropdownListPractice from "./DropdownListPractice";
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

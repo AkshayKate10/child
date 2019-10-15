@@ -65,12 +65,12 @@ export default class ChildComponent extends Component {
     this.setState({ name: "changed name" });
   };
 
-  // Unsubscribe from event listeners
-  // For example timers
-  componentWillUnmount() {
-    console.log(
-      "%c child componentWillUnmount ",
-      "color: pink; font-size: 25px"
-    );
-  }
+  // // Unsubscribe from event listeners
+  // // For example timers
+  // componentWillUnmount() {
+  //   console.log(
+  //     "%c child componentWillUnmount ",
+  //     "color: pink; font-size: 25px"
+  //   );
+  // }
 }

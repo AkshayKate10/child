@@ -52,7 +52,7 @@ export default class LifecycleMethods extends Component {
   }
 
   onClickChangeName = () => {
-    ReactDOM.unmountComponentAtNode(document.getElementById("root"));
+    // ReactDOM.unmountComponentAtNode(document.getElementById("root"));
 
     this.setState({
       name: "changed name",
@@ -60,7 +60,7 @@ export default class LifecycleMethods extends Component {
     });
   };
 
-  componentWillUnmount() {
-    console.log("%c componentWillUnmount ", "color: pink; font-size: 25px");
-  }
+  // componentWillUnmount() {
+  //   console.log("%c componentWillUnmount ", "color: pink; font-size: 25px");
+  // }
 }

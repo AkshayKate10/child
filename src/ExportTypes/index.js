@@ -13,7 +13,10 @@ export default class ExportTypes extends Component {
     return (
       <div>
         <div>Simple Export</div>
-        {jj.name}
+        <p>{jj.name}</p>
+        <p>{jj.height}</p>
+        <p>{city}</p>
+        <p>{name}</p>
       </div>
     );
   }

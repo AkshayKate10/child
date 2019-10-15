@@ -55,12 +55,45 @@ export default class SearchArrayByInput extends Component {
       addNum.push(this.state.number);
       this.setState({
         addNumberAlert: "Number Added successfully",
-        number: ""
+        number: "",
+        numberToAdd: addNum
       });
     }
 
     console.log(addNum);
   };
+
+  //   let a = [1, 2, 3];
+  //   console.log("a: ", a);
+  //   let c = a;
+  //   c.push(98);
+  //   // let c = [1, 2, 3];
+  //   console.log("c: ", c);
+  //   console.log("is a == c? ", a == c);
+  //   let b = 5;
+  //   console.log("Initial a: ", a);
+  //   console.log("Initial b: ", b);
+  //   this.temp(a);
+  //   this.temp2(b);
+  //   console.log("after calling temp a: ", a);
+  //   console.log("after calling temp b: ", b);
+  // };
+
+  // // pass by value
+  // // only primitive
+  // temp2 = inputNumber => {
+  //   console.log("before inputNumber: ", inputNumber);
+
+  //   inputNumber = 43;
+
+  //   console.log("after inputNumber: ", inputNumber);
+  // };
+
+  // // pass by reference
+  // // objects
+  // temp = inputArray => {
+  //   inputArray.push(88);
+  // };
 
   onChangeSearch = e => {
     var numberToSearch = e.target.value;
