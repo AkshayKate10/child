@@ -15,9 +15,10 @@ import * as serviceWorker from "./serviceWorker";
 // import ApiTable from "./ApiTable";
 // import LifecycleMethods from "./LifeCycle/Lifecycle_methods";
 // import TypesOfComponents from "./TypesOfComponents";
-import ExportTypes from "./ExportTypes";
+// import ExportTypes from "./ExportTypes";
+import App from "./redux_in_action/app";
 
-ReactDOM.render(<ExportTypes />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
