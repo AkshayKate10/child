@@ -16,14 +16,8 @@ import * as serviceWorker from "./serviceWorker";
 // import LifecycleMethods from "./LifeCycle/Lifecycle_methods";
 // import TypesOfComponents from "./TypesOfComponents";
 // import ExportTypes from "./ExportTypes";
-<<<<<<< HEAD
-// import ArraySearchAndDelete from "./ArraySearchAndDelete";
-import App from "./StateUplifting";
-// import DropdownListPractice from "./DropdownListPractice";
-=======
 import App from "./redux_in_action/app";
 
->>>>>>> 134954ad45ea85910df2c83edba98b569ea3d7d4
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
