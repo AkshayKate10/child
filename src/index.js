@@ -20,7 +20,7 @@ import * as serviceWorker from "./serviceWorker";
 // import MomentPractice from "./MomentPractice";
 // import App from "./PracticeApps/ApiReduxPractice/App";
 // import App from "./PracticeApps/Redux/App";
-import App from "./PracticeApps/Redux/WorkingRedux/App";
+import App from "./redux_in_action-with-react-redux/app";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
