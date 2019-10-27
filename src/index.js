@@ -16,7 +16,11 @@ import * as serviceWorker from "./serviceWorker";
 // import LifecycleMethods from "./LifeCycle/Lifecycle_methods";
 // import TypesOfComponents from "./TypesOfComponents";
 // import ExportTypes from "./ExportTypes";
-import App from "./redux_in_action/app";
+// import App from "./redux_in_action/app";
+// import MomentPractice from "./MomentPractice";
+// import App from "./PracticeApps/ApiReduxPractice/App";
+// import App from "./PracticeApps/Redux/App";
+import App from "./PracticeApps/Redux/WorkingRedux/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

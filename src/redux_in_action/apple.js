@@ -12,7 +12,7 @@ export default class Apple extends Component {
       <div>
         Apple
         <div>
-          Name: <input onChange={this.onChangeName}></input>
+          Name: <input onChange={this.onChangeName} />
           <button onClick={this.onClickSaveName}>Save name</button>
         </div>
       </div>

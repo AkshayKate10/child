@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { store } from "./store";
 
-export default class Mango extends Component {
+export default class DisplayPage extends Component {
   state = {
-    newName: store.getState().name
+    newLocation: store.getState().Location
   };
 
   componentDidMount() {
@@ -12,16 +12,16 @@ export default class Mango extends Component {
 
   updateLocalComponent = () => {
     const currentStore = store.getState();
-    const nameFromStore = currentStore.name;
+    const newLocation = currentStore.Location;
 
-    this.setState({ newName: nameFromStore });
+    this.setState({ newLocation });
   };
 
   render() {
     return (
       <div>
-        Mango
-        <div>Saved name is {this.state.newName}</div>
+        <h3>Display Page</h3>
+        <p>Location is : {this.state.newLocation}</p>
       </div>
     );
   }
