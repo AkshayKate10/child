@@ -21,6 +21,7 @@ import App2 from "./PracticeApps/App2";
 // import App from "./PracticeApps/ApiReduxPractice/App";
 // import App from "./PracticeApps/Redux/App";
 // import App from "./PracticeApps/Redux/WorkingRedux/App";
+import App from "./redux_in_action-with-react-redux/app";
 
 ReactDOM.render(<App2 />, document.getElementById("root"));
 
